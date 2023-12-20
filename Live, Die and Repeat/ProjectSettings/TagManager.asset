@@ -15,7 +15,7 @@ TagManager:
   - 
   - Blocking
   - Actor
-  - 
+  - Wall
   - 
   - 
   - 
@@ -46,4 +46,7 @@ TagManager:
     locked: 0
   - name: Actor
     uniqueID: 2656689573
+    locked: 0
+  - name: Wall
+    uniqueID: 2763663471
     locked: 0

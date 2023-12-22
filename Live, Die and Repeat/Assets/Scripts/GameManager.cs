@@ -48,30 +48,30 @@ public class GameManager : MonoBehaviour
    */
   public void SaveState()
   { 
-    /*string s = "";
-     *
-     *s += "0" + "|";
-     *s += glims.ToString() + "|";
-     *s += experience.ToString() + "|";
-     *s += "0";
-     *
-     *PlayerPrefs.SetString("SaveState", s); 
-     */
+    string s = "";
+    
+    s += "0" + "|";
+    s += glims.ToString() + "|";
+    s += experience.ToString() + "|";
+    s += "0";
+    
+    PlayerPrefs.SetString("SaveState", s); 
+    
     Debug.Log("SaveState");
   }
 
   public void LoadState(Scene s, LoadSceneMode mode)
   {    
-    /*if (!PlayerPrefs.HasKey("SaveState"))
-     *    return;
-     *
-     *string[] data = PlayerPrefs.GetString("SaveState").Split('|');
-     *
-     *Change player skin
-     *glims = int.Parse(data[1]);
-     *experience = int.Parse(data[2]);
-     *Change weapon level
-     */
+    if (!PlayerPrefs.HasKey("SaveState"))
+        return;
+    
+    string[] data = PlayerPrefs.GetString("SaveState").Split('|');
+    
+    //Change player skin
+    glims = int.Parse(data[1]);
+    experience = int.Parse(data[2]);
+    //Change weapon level
+    
     Debug.Log("LoadState");  
   }
 }

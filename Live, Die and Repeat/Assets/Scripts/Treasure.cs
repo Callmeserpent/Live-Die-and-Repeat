@@ -12,6 +12,7 @@ public class Treasure : Collectable
         {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
+            GameManager.instance.ShowText("+", 15, Color.yellow, transform.position, Vector3.up * 50, 3.0f);
             Debug.Log("Gain " + glimsAmount + " Glims!");
         }
     

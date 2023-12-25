@@ -3806,7 +3806,7 @@ TextureImporter:
         width: 11
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3827,7 +3827,7 @@ TextureImporter:
         width: 11
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3848,7 +3848,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3856,6 +3856,258 @@ TextureImporter:
       bones: []
       spriteID: 2004f0ca860ccdc47a58f5b4d5a54f25
       internalID: -2008184492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slele_creep_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 480
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f46845411f91e4ab4899c21b203360
+      internalID: 774447710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slele_creep_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 480
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cdcdeebb9ddf7458c75bdec38bb900
+      internalID: -193716220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slele_creep_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 480
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d074449d88ed09d42b7f7b94b25583e9
+      internalID: 1901570104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 384
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d5998e61e9a184b9db7d1bbbe1b149
+      internalID: 1808354236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 384
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d0a47d20cc2ef468500b48f4d83a5f
+      internalID: 1147109916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba544322bed9ea4c8747f0307e61cb3
+      internalID: -1746347271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slug_1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 120
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49341ca2242df0042975308e3102d1e8
+      internalID: 665921535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slug_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff308db5ec43c5741865cfc66a2b8eb3
+      internalID: 1635450398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slug_3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 120
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f0456806e0e542819b4a967a3d841
+      internalID: 1941187512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a585268e1c9d20489453e1be5110513
+      internalID: 198546205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 144
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62884d29b14791f40928209d89af6988
+      internalID: -324710411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 144
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32886d366695c5e40bd6cfd0baa02022
+      internalID: 272904402
       vertices: []
       indices: 
       edges: []
@@ -4002,8 +4254,17 @@ TextureImporter:
       skele_0: -311084275
       skull: -232624953
       slele_creep_0: -121319488
+      slele_creep_1: 774447710
+      slele_creep_2: -193716220
+      slele_creep_3: 1901570104
       slime_0: 169051134
+      slime_1: 1808354236
+      slime_2: 1147109916
+      slime_3: -1746347271
       slug_0: 1505143529
+      slug_1: 665921535
+      slug_2: 1635450398
+      slug_3: 1941187512
       task_0: -899344067
       task_1: -1917461945
       task_2: 2076059832
@@ -4047,6 +4308,9 @@ TextureImporter:
       weapon_8: 1088287188
       weapon_9: 1728281778
       witch_0: 852867608
+      witch_1: 198546205
+      witch_2: -324710411
+      witch_3: 272904402
       zombie_boss_0: -510665275
       zombie_enem_0: -1773582119
   mipmapLimitGroupName: 

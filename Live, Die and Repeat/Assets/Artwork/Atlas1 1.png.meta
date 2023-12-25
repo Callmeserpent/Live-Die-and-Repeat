@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a257b4d08aaf90744a03e539a9d6a3d9
+guid: fc94e53e874accd49b4f5a76b639fb70
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -3491,7 +3491,7 @@ TextureImporter:
         width: 13
         height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3512,7 +3512,7 @@ TextureImporter:
         width: 13
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3533,7 +3533,7 @@ TextureImporter:
         width: 13
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3541,321 +3541,6 @@ TextureImporter:
       bones: []
       spriteID: 419e2cf69e91b8846ab13e550722aa7f
       internalID: -717427309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cult_1
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 264
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f4f8be6df8e8644b924122a9180f601
-      internalID: -886365175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cult_2
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 264
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c2e878c52be402489b97750fdb3cdae
-      internalID: 2144527695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cult_3
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 264
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59cd30e5dee27214eaee2d4014254960
-      internalID: 251791035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge_creep_1
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 456
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc1302f8abb14bb4494d190ee54b1347
-      internalID: -66883457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge_creep_2
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 456
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36f5b793b0ddc4e418f7ab30e8958d7b
-      internalID: 781668855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge_creep_3
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 456
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c24eb58d72c06f4482cbab2cb6ec7f0
-      internalID: -1967934110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge2_1
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 312
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3e78fa435a3e3f4f904c95f51f5d8c1
-      internalID: 134870700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge2_2
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 312
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30c5bd742d9ab05469dd3d8021228178
-      internalID: -2113256663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge2_3
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 312
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86d02044370ce004d937ac00d46fec96
-      internalID: -2139176393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge1_1
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 336
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab2d88a2d632ec94c935353e0a4fcac1
-      internalID: 1890733923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge1_2
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 336
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 788980f57f113e64283b2152171a2b44
-      internalID: -1490928553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge1_3
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 336
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab9ef06a237a6a94dbae9c4f09ae1206
-      internalID: -2140001847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge3_1
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 288
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e81cbcdda318f5a448f128670849bae3
-      internalID: -1219759432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge3_2
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 288
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c68fff2d720cff47b2396e3cdfe2fb2
-      internalID: 2087088646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: orge3_3
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 288
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2004f0ca860ccdc47a58f5b4d5a54f25
-      internalID: -2008184492
       vertices: []
       indices: 
       edges: []
@@ -3947,9 +3632,6 @@ TextureImporter:
       angel_2: -1345797555
       angel_3: -717427309
       cult_0: 1374103826
-      cult_1: -886365175
-      cult_2: 2144527695
-      cult_3: 251791035
       demon1_0: -1674094380
       demon1_1: -1611981563
       demon1_2: -751074587
@@ -3983,22 +3665,10 @@ TextureImporter:
       door_9: -1513718125
       hallow_0: -1203764915
       orge1_0: 831087913
-      orge1_1: 1890733923
-      orge1_2: -1490928553
-      orge1_3: -2140001847
       orge2_0: -1471712756
-      orge2_1: 134870700
-      orge2_2: -2113256663
-      orge2_3: -2139176393
       orge3_0: -1112686457
-      orge3_1: -1219759432
-      orge3_2: 2087088646
-      orge3_3: -2008184492
       orge_boss_0: 1443584036
       orge_creep_0: -30064206
-      orge_creep_1: -66883457
-      orge_creep_2: 781668855
-      orge_creep_3: -1967934110
       skele_0: -311084275
       skull: -232624953
       slele_creep_0: -121319488

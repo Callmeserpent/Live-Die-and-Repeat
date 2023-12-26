@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : Mover
 {
     //Experience
-    public int xpValue = 1;
+    public int expValue = 1;
 
     //Logic
     public float triggerLength = 1;
@@ -14,6 +14,9 @@ public class Enemy : Mover
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
+
+    //Chase
+    private Animator anim;
 
     //Hitbox
     public ContactFilter2D filter;
@@ -26,6 +29,7 @@ public class Enemy : Mover
         playerTransform = GameManager.instance.player.transform;
         startingPosition = transform.position;
         hitbox = transform.GetChild(0).GetComponent<BoxCollider2D>();
+        anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -35,6 +39,12 @@ public class Enemy : Mover
         {
             if (Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
                 chasing = true;
+
+                if (Vector3.Distance(playerTransform.position, startingPosition) < triggerLength && 
+                    (this.name == "TreasureTrap" || this.name == "Slime" || this.name == "Slug" || this.name == "ZombieElite")){
+                    chasing = true;
+                    Chase();
+                }
 
             if (chasing)
             {
@@ -75,8 +85,13 @@ public class Enemy : Mover
     protected override void  Death()
     {
         Destroy(gameObject);
-        GameManager.instance.experience += xpValue;
-        GameManager.instance.ShowText("+" + xpValue + " exp", 20, Color.white, transform.position, Vector3.up *20, 0.7f);
+        GameManager.instance.GainExp(expValue);
+        GameManager.instance.ShowText("+" + expValue + " exp", 20, Color.cyan, transform.position, Vector3.up *20, 0.7f);
         Debug.Log(gameObject + "has been eliminated!");
     }
+
+    private void Chase()
+   {    
+        anim.SetTrigger("chasing");
+   }
 }

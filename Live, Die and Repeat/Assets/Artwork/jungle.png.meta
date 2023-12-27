@@ -971,7 +971,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,7 +992,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1000,6 +1000,27 @@ TextureImporter:
       bones: []
       spriteID: bc85830b43483ff48802c93d5cc8e636
       internalID: 412036622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: back_exit
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f2ad15ef8f0af4689c0e0f0d3a3d2c
+      internalID: 1136817006
       vertices: []
       indices: 
       edges: []
@@ -1015,6 +1036,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      back_exit: 1136817006
       jungle_edge_0: -1988280040
       jungle_edge_1: 752591097
       jungle_edge_2: 450003712

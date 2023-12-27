@@ -11,12 +11,16 @@ public class GameManager : MonoBehaviour
     if (GameManager.instance != null)
     {
         Destroy(gameObject);
+        Destroy(player.gameObject);
+        Destroy(floatingTextManager.gameObject);
+        Destroy(hud);
+        Destroy(menu);
         return;
     }
 
     instance = this; 
     SceneManager.sceneLoaded += LoadState; 
-    DontDestroyOnLoad(gameObject);
+    SceneManager.sceneLoaded += OnSceneLoaded;
   }
 
   //Resources
@@ -31,6 +35,8 @@ public class GameManager : MonoBehaviour
   public FloatingTextManager floatingTextManager;
   public RectTransform hitpointBar;
   public Animator deathMenuAnim;
+  public GameObject hud;
+  public GameObject menu;
 
   //Logic
   public int glims = 0;
@@ -110,6 +116,7 @@ public class GameManager : MonoBehaviour
   {
       Debug.Log("Level Up!");
       player.OnLevelUp();
+      OnHitpointChange();
   }
 
   //Death menu & respawn
@@ -117,7 +124,12 @@ public class GameManager : MonoBehaviour
   {
     deathMenuAnim.SetTrigger("hide");
     UnityEngine.SceneManagement.SceneManager.LoadScene("Dungeon1");
-    player.Respawn();
+  }
+
+  //On Scene Loaded
+  public void OnSceneLoaded(Scene s, LoadSceneMode mode)
+  {
+      player.transform.position = GameObject.Find("SpawnPoint").transform.position;
   }
 
   //Save state
@@ -137,12 +149,12 @@ public class GameManager : MonoBehaviour
     s += weapon.weaponLevel.ToString();
     
     PlayerPrefs.SetString("SaveState", s); 
-    
-    Debug.Log("SaveState");
   }
 
   public void LoadState(Scene s, LoadSceneMode mode)
-  {    
+  { 
+    SceneManager.sceneLoaded -= LoadState; 
+           
     if (!PlayerPrefs.HasKey("SaveState"))
         return;
     
@@ -153,10 +165,6 @@ public class GameManager : MonoBehaviour
     if(GetCurrentLevel() != 1)
       player.SetLevel(GetCurrentLevel());
 
-    weapon.SetWeaponLevel(int.Parse(data[3]));
-    
-    player.transform.position = GameObject.Find("SpawnPoint").transform.position;
-
-    Debug.Log("LoadState");  
+    weapon.SetWeaponLevel(int.Parse(data[3])); 
   }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class NPCTextPerson : Collidable
 {
     public string message;
-    private float cooldown = 4.0f;
+    private float cooldown = 0.5f;
     private float lastShout;
 
     protected override void Start()

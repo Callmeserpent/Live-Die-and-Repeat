@@ -124,6 +124,7 @@ public class GameManager : MonoBehaviour
   {
     deathMenuAnim.SetTrigger("hide");
     UnityEngine.SceneManagement.SceneManager.LoadScene("Dungeon1");
+    player.Respawn();
   }
 
   //On Scene Loaded
